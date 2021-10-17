@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>   
+        <meta charset='utf-8'>     
+        <title>Form Submission</title>
+    </head>
+    <body>
+        <h2>HTML Forms</h2>
+
+<form action="http://localhost:8080/store-app/users/create" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="firstName" value="John"><br>
+  <label for="mname">Middle name:</label><br>
+  <input type="text" id="mname" name="middleName" value="Test"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lastName" value="Doe"><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="email" name="eMail" value="abc@gmail.com"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="passwordHash" value="passwordHash"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    </body>
+</html>
