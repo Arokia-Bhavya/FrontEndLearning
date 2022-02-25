@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>UrBuddy</title>
+    <link rel="icon" href="/favicon.ico">
+    <!--<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>-->
+	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;res.cloudinary.com&#x2F;crunchbase-production&#x2F;image&#x2F;upload&#x2F;c_lpad,f_auto,q_auto:eco,dpr_1&#x2F;o0rfilodymyjhcfvxx8r"
+  intent="WELCOME"
+  chat-title="UrBuddy"
+  agent-id="184765ce-5598-4eeb-bfec-def446198d5e"
+  language-code="en"
+></df-messenger>
+</head>
+<body>
+</body>
+</html>
